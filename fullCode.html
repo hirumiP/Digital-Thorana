@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Thorana</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .circle {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+        }
+        .frame {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .image {
+            position: absolute;
+            width: 95px;
+            height: 95px;
+            border-radius: 50%;
+            z-index: 2;
+            top: 20px;
+            left: 20px;
+        }
+        .circle1 { top: 540px; left: 340px; }
+        .circle2 { top: 460px; left: 200px; }
+        .circle3 { top: 380px; left: 60px; }
+        .circle4 { top: 300px; left: 200px; }
+        .circle5 { top: 220px; left: 340px; }
+        .circle6 { top: 300px; left: 480px; }
+        .circle7 { top: 380px; left: 620px; }
+        .circle8 { top: 460px; left: 480px; }
+        .central-image {
+            position: absolute;
+            top: 300px;
+            left: 290px;
+            width: 230px;
+            height: 250px;
+            z-index: 0;
+        }
+        .front-image {
+            position: absolute;
+            top: 370px;
+            left: 325px;
+            width: 160px;
+            height: 190px;
+            z-index: 1;
+        }
+         .rectangle-frame {
+            position: absolute;
+            width: 700px;
+            height: 300px; 
+            top: 645px; 
+            left: 295px; /* Adjust position to align with rectangle */
+            z-index: 1;
+        }
+      .layer {
+            position: absolute;
+            width: 1024px;
+            height: 720px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="central-image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/Buduresmala2.gif?v=1720535560858" alt="Central Image" />
+        <img class="front-image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/lord_buddha1-removebg-preview.png?v=1720535574243" alt="Front Image" />
+        
+        <div class="circle circle1">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 1" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/1.gif?v=1720535505862" alt="Image 1" />
+        </div>
+        <div class="circle circle2">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 2" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/2.gif?v=1720535517491" />
+        </div>
+        <div class="circle circle3">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 3" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/3.jpeg?v=1720535516549" />
+        </div>
+        <div class="circle circle4">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 4" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/4.gif?v=1720535526240" />
+        </div>
+        <div class="circle circle5">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 5" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/5.jpeg?v=1720535526875" />
+        </div>
+        <div class="circle circle6">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 6" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/6.jpeg?v=1720535535545" />
+        </div>
+        <div class="circle circle7">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 7" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/7.jpeg?v=1720535536857" />
+        </div>
+        <div class="circle circle8">
+            <img class="frame" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/frame1.gif?v=1720535567272" alt="Frame 8" />
+            <img class="image" src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/8.gif?v=1720535549358" />
+        </div>
+        
+        <div class="layer">
+            <img style="position: absolute; width: 700px; height: 95px; top: 670px; left: 160px;"
+                 src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/Picture2.png?v=1720540756445">
+            <img style="position: absolute; width: 730px; height: 400px; top: 528px; left: 152px;"
+                 src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/Border.gif?v=1720535549744">
+            <img style="position: absolute; width: 240px; height: 240px; top: 480px; left: 130px;"
+                 src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/Buduresmala1.gif?v=1720535551730">
+            <img style="position: absolute; width: 240px; height: 240px; top: 480px; left: 640px;"
+                 src="https://cdn.glitch.global/9ecb6bb7-8eeb-4d09-baa9-7ce1280af63e/Buduresmala1.gif?v=1720535551730">
+        </div>
+    </div>
+</body>
+</html>
